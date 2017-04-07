@@ -16,7 +16,7 @@ $(function(){
 	var ele=$(".info_list>ul>li");
 ele.delegate('a','click',function(e){
 	$(this).next().slideToggle();
-	$(this).parent("li").siblings().find("a").next().hide();
+	$(this).parent("li").siblings().find("a").next().slideUp();
 	
 	//遮罩层
 	$("#tan").click(function(){
