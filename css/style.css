@@ -215,7 +215,7 @@ a:target {
 .affirm_footer .aff_btn {
   width: 6.9rem;
   height: 0.78rem;
-  background: #fe564c;
+  background: #999999;
   line-height: 0.78rem;
   text-align: center;
   border-radius: 0.05rem;
@@ -236,7 +236,7 @@ a:target {
 .affirm_footer label p {
   position: absolute;
   left: .3rem;
-  top: -0.03rem;
+  top: -0.01rem;
 }
 .layer {
   width: 100%;
