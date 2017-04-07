@@ -21,9 +21,11 @@ ele.delegate('a','click',function(e){
 	//遮罩层
 	$("#tan").click(function(){
 		$(".layer").removeClass("none");
+		$("html").addClass("hiddenY");
 	})
 	$("#know").click(function(){
 		$(".layer").addClass("none");
+		$("html").removeClass("hiddenY");
 	})
 })
 })

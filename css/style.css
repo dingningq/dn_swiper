@@ -7,8 +7,10 @@ body {
   background: #fff;
   overflow-x: hidden;
   color: #4e4e4e;
-  overflow: scroll;
   font-family: "微软雅黑";
+}
+.hiddenY {
+  overflow-y: hidden;
 }
 a,
 a:active,
@@ -225,6 +227,16 @@ a:target {
   margin-top: 0.28rem;
   display: block;
   font-size: 0.2rem;
+  position: relative;
+}
+.affirm_footer label input {
+  position: absolute;
+  top: .02rem;
+}
+.affirm_footer label p {
+  position: absolute;
+  left: .3rem;
+  top: -0.03rem;
 }
 .layer {
   width: 100%;
@@ -255,14 +267,14 @@ a:target {
   top: 20%;
   z-index: 899999;
 }
-.layer .layer_info ul > li > h3 {
+.layer .layer_info ul > li > h4 {
   font-size: 0.3rem;
   color: #fff;
   padding-left: 0.15rem;
   height: 0.6rem;
   line-height: 0.6rem;
 }
-.layer .layer_info ul > li > h3 i {
+.layer .layer_info ul > li > h4 i {
   width: 0.15rem;
   height: 0.26rem;
   display: inline-block;

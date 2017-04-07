@@ -7,8 +7,10 @@ body {
     background: #fff;
     overflow-x: hidden;
     color: #4e4e4e;
-    overflow: scroll;
     font-family: "微软雅黑";
+}
+.hiddenY{
+    overflow-y: hidden;
 }
 a,
 a:active,
@@ -228,6 +230,16 @@ a:target {
         margin-top: 0.28rem;
         display: block;
         font-size: 0.2rem;
+        position: relative;
+        input{
+            position: absolute;
+            top:.02rem;
+        }
+        p{
+            position: absolute;
+            left: .3rem;
+            top:-.03rem;
+        }
     }
 }
 .layer {
@@ -257,7 +269,7 @@ a:target {
         left: 0;
         top: 20%;
         z-index: 899999;
-        ul>li>h3 {
+        ul>li>h4 {
             font-size: 0.3rem;
             color: #fff;
             padding-left: 0.15rem;
